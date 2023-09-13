@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(113, 121, 238);
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: Roboto;
+}
+
+h1 {
+    color: rgb(35, 35, 126);
+    font-size: 25px;
+    font-weight: bolder;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+h2 {
+    color: rgb(131, 127, 127);
+    font-size: 16px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.card {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    left: 50%;
+    top: 50%;
+}
+
+.QR-code {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    left: 25px;
+    top: 25px;
+    margin-bottom: 20px;
+}
